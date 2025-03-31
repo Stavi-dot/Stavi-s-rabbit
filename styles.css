@@ -1,0 +1,181 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var();
+    background-image: 
+      url(https://cdn.pixabay.com/photo/2020/06/18/18/36/carrot-5314608_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+  }
+
+.ear-left{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    background-color: #edc4b4;
+    height: 80px;
+    width: 28px;
+    border-radius: 40%;
+    border: 1px solid black;
+    transform: rotate(-20deg);
+}
+.ear-left> div{
+    position: absolute;
+    left: 7px;
+    top: 20px;
+    background-color: #f7879c;
+    height: 50px;
+    width: 14px;
+    border-radius: 40%;
+    border: 1px solid black;
+}
+.ear-right{
+    position: relative;
+    left: 70px;
+    top: -80px;
+    background-color: #edc4b4;
+    height: 80px;
+    width: 28px;
+    border-radius: 40%;
+    border: 1px solid black;
+    transform: rotate(20deg);
+}
+.ear-right> div{
+    position: absolute;
+    left: 7px;
+    top: 20px;
+    background-color: #f7879c;
+    height: 50px;
+    width: 14px;
+    border-radius: 40%;
+    border: 1px solid black;
+}
+.face{
+    position: relative;
+    top: -90px;
+    left: 40px;
+    background-color: #edc4b4;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.eye-left{
+    position: relative;
+    top: 35px;
+    left: 20px;
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.eye-left> div{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}
+
+.eye-right{
+    position: relative;
+    top: 15px;
+    left: 65px;
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.eye-right> div{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}
+.nose{
+    position: relative;
+    top: 32px;
+    left: 44px;
+    background-color: #f7879c;
+    height: 10px;
+    width: 20px;
+    border-radius: 50%;
+}
+.mouth-left{
+  position: relative;
+  top: 20px;
+  left: 30px;
+  width: 20px;
+  height: 10px;
+  border: 2px solid black;
+  border-radius: 0 0 10px 10px; 
+  background-color: #edc4b4;
+  border-top: none;
+}
+.mouth-right{
+    position: relative;
+    top: 8px;
+    left: 52px;
+    width: 20px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 0 0 10px 10px; 
+    background-color: #edc4b4;
+    border-top: none;
+  }
+  
+.mouth-bottom{
+    position: relative;
+    top: 38px;
+    left:44px;
+    width: 15px;
+    height: 10px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 0 0 10px 10px; 
+    border-top: none;
+  }
+  .main{
+   /* Ή position: fixed; */
+   
+   place-items: center;
+
+  }
+.text{
+    background-color: rgba(190, 124, 1, 0.382);
+  opacity: 1;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-top: none;
+  border-bottom: none;
+}
+h1{
+    text-align: center;
+    margin: 10px 100px 10px 100px;
+    padding: 0%;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2rem;
+    color: aliceblue;
+}
+    
+.Description{
+    margin: 10px 100px 10px 100px;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-size: 1.5rem;
+    color: #2b0109;
+}
